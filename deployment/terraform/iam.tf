@@ -1,7 +1,7 @@
 # Data source to get project numbers
 data "google_project" "projects" {
-  for_each   = local.deploy_project_ids
-  project_id = each.value
+  for_each = toset(["staging", "prod"])
+  project_id = each.key == "staging" ? var.staging_project_id : var.prod_project_id
 }
 
 # 1. Assign roles for the CICD project
