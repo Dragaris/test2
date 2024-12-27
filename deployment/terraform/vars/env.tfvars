@@ -2,7 +2,7 @@
 prod_project_id = "sincere-baton-418601"
 staging_project_id = "sincere-baton-418601"
 cicd_runner_project_id = "sincere-baton-418601"
-host_connection_name = "github_connection"
+host_connection_name = "trigger-test2"
 repository_name = "test2"
 region = "us-central1"
 telemetry_bigquery_dataset_id = "telemetry_genai_app_sample_sink"
