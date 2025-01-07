@@ -1,7 +1,7 @@
 # Your Production Google Cloud project id
-prod_project_id = "my-prod-sincere-baton-418601"
-staging_project_id = my-staging-sincere-baton-418601"
-cicd_runner_project_id = "my-cicd-sincere-baton-418601"
+prod_project_id = "make-ga4-429302"
+staging_project_id = "protean-bit-419200"
+cicd_runner_project_id = "sincere-baton-418601"
 host_connection_name = "test3"
 repository_name = "Dragaris-test2"
 region = "us-central1"
